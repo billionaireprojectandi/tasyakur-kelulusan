@@ -251,7 +251,7 @@ function Schedule() {
         <SlideComp direction={Direction.Up} className="text-sm text-center">
           <p>Dresscode murid:</p>
           <p>Putri: Kebaya Seragam</p>
-          <p>Putra: Jas Hitam, Kemeja Hitam, Dasi Seragam</p>
+          <p>Putra: Jas Hitam, Kemeja Hitam, Dasi Seragam, Sepatu Pantofel</p>
         </SlideComp>
       )}
       {/*{guru && (*/}
