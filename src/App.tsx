@@ -107,8 +107,8 @@ function Cover(props: CoverProps) {
                 />
               </div>
               <div className="flex flex-col justify-center items-center gap-6 z-50">
-                <SlideComp direction={Direction.Down}>
-                  <p className="text-4xl mb-4 font-cormorant-garamond text-center font-medium text-black w-2/3 justify-self-center">
+                <SlideComp direction={Direction.Down} className="w-full">
+                  <p className="text-4xl mb-4 mx-auto font-cormorant-garamond text-center font-medium text-black w-2/3 justify-self-center">
                     TASYAKUR KELULUSAN
                   </p>
                 </SlideComp>
@@ -267,6 +267,14 @@ function Schedule() {
 
 const runDownArr = [
   {
+    title: "Registrasi",
+    time: "06.30 - 07.00"
+  },
+  {
+    title: "Pemutaran musik",
+    time: "07.00 - 07.10",
+  },
+  {
     title: "Parade Guru dan Murid",
     time: "07.10 - 07.20",
   },
@@ -296,7 +304,7 @@ const runDownArr = [
   },
   {
     title: "Prosesi dan pengalungan medali kelulusan",
-    time: "08.00 - 09.30",
+    time: "08.00 - 09.35",
   },
   {
     title: ["Sambutan-Sambutan",
@@ -308,26 +316,22 @@ const runDownArr = [
         "Kepala Diratdikdasmen YPI Al Azhar",
         "Kepala Dinas Pendidikan Provinsi DKI Jakarta"
     ],
-    time: "09.30 - 10.00",
+    time: "09.35 - 10.05",
   },
   {
     title: ["Pengukuhan anggota Alumni Sekolah Islam Al Azhar", "Janji alumni", "Serah terima alumni SMPI Al Azhar 10 kepada ASIA Kampus al azhar Kembangan"],
-    time: "10.00 - 10.10",
+    time: "10.05 - 10.15",
   },
   {
     title: "Penyerahan secara simbolis dari pihak sekolah kepada orang tua murid",
-    time: "10.10 - 10.15",
-  },
-  {
-    title: "Sambutan Perwakilan Orang tua Murid Kelas IX Angkatan 24 tahun 2024/2025",
     time: "10.15 - 10.20",
   },
   {
-    title: "Ucapan Selamat atas Kelulusan angkatan 24",
+    title: "Sambutan Perwakilan Orang tua Murid Kelas IX Angkatan 24 tahun 2024/2025",
     time: "10.20 - 10.25",
   },
   {
-    title: ["Tari Kreasi", "Penampilan alumni alba angkatan 24"],
+    title: ["Penampilan", "Tari Kreasi", "Penampilan alumni alba angkatan 24"],
     time: "10.25 - 10.50",
   },
   {
@@ -344,7 +348,7 @@ const runDownArr = [
   },
   {
     title: "Persembahan untuk orang tua (Menyanyikan sebuah lagu)",
-    time: "11.40 - 11.45",
+    time: "11.30 - 11.45",
   },
   {
     title: "Foto Bersama",
